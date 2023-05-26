@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+#Autor: n1c3bug( theIrishBug)
 
 
 #Colors
@@ -15,11 +15,11 @@ gray="\e[0;37m\033[1m"
 interRed="\e[5;31m\033[1m"
 
 trap ctrl_c INT
-#Desaparece cursor
 
 
 
 function checkDep(){
+	#Desaparece cursor
 	tput civis
 	clear
 	echo -e "${red}[!]${end}Checking dependencies...\n"
